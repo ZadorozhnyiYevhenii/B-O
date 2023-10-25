@@ -121,5 +121,12 @@
 
   &__link {
     text-decoration: none;
+
+    transition-duration: 0.3s;
+
+    &:hover {
+      color: #1B2129;
+      transform: scale(1.05);
+    }
   }
 }
